@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-wrapper {
+    z-index: 1;
+}
+
+.swiper .swiper-wrapper .swiper-slide {
+    background: #fff;
+}
+
+/*# sourceMappingURL=/swipper.5db57920.css.map */

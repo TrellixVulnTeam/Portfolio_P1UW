@@ -80,6 +80,11 @@ video {
     border: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,

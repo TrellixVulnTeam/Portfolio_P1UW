@@ -239,12 +239,15 @@ body {
                     cursor: pointer;
 
 
-                    p {
+                    a {
+                        display: block;
+                        text-decoration: none;
                         position: relative;
                         width: 100%;
                         height: 100%;
                         border: 1px solid #000;
                         z-index: 1;
+                        color: #000;
 
                         &::after {
                             position: absolute;
@@ -461,7 +464,7 @@ body {
             .Portfolio_wrap_img {
                 position: relative;
                 width: 100%;
-                height: 800px;
+                height: auto;
 
                 img {
                     width: 100%;
@@ -517,6 +520,15 @@ body {
                     font-size: 1.7rem;
                     line-height: 2;
                     margin: auto;
+                    text-align: center;
+
+                    a {
+                        display: block;
+                        text-align: center;
+                        position: relative;
+                        text-decoration: underline;
+
+                    }
                 }
 
                 .btn {
